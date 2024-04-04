@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col me-3 h1 border shadow rounded d-flex align-items-center justify-content-center" style="height: 100px">
             {{-- @include Authors --}}
-            <a href="{{ route('author.create') }}" class="text-decoration-none text-primary fw-bold bg-success">
+            <a href="{{ route('author.create') }}" class="text-decoration-none text-primary fw-bold">
                 <i class="fa-solid fa-users me-1"></i>Author
                 <span>{{ $authors->count() }}</span>
             </a>
